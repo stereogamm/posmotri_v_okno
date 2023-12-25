@@ -283,27 +283,18 @@ ol {
   height: 34px;
 }
 
-
-
-/* input[type="checkbox"]:checked + span {
-  content: "";
-  width: 19px;
-  height: 19px;
-  background-color: #FFF;
-} */
-
 input:focus {
   outline: none;
 }
 
 .search-form__label:has(:focus-visible) {
-  border: 1px solid #fff;
+  outline: 1px solid #fff;
 }
 
 .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
-  border: 1px solid red;
+  border: 1px solid #fff;
   position: relative;
 }
 
@@ -316,15 +307,13 @@ input:focus {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* display: none; */
+  display: none;
 }
 
-.search-form__checkbox[type="“checkbox”"]:checked
+.search-form__checkbox[type="checkbox"]:checked
   + .search-form__pseudo-checkbox::before {
-  display: inline-block;
+  display: block;
 }
-
-
 
 .button:focus {
   outline: none;
@@ -332,7 +321,7 @@ input:focus {
 
 .button:focus-visible {
   outline: 1px solid #fff;
-  outline-offset: -2px; 
+  outline-offset: -2px;
 }
 
 .content__card-link {
