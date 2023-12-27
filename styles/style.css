@@ -11,7 +11,7 @@ html {
 .page {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -42,11 +42,10 @@ ol {
 
 .content {
   display: flex;
-  justify-content: center;
-  align-items: end;
-  margin: 133px 30px;
+  align-self: end;
   max-width: 1140px;
   gap: 30px;
+  margin: 137px 30px;
 }
 
 .search-form {
@@ -368,3 +367,6 @@ ol {
   margin: 2px;
   outline: 1px solid #fff;
 }
+
+
+
