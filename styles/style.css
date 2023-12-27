@@ -42,7 +42,7 @@ ol {
 
 .content {
   display: flex;
-  align-self: end;
+  align-self: center;
   max-width: 1140px;
   gap: 30px;
   margin: 137px 30px;
