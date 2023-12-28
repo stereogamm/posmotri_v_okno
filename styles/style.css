@@ -63,7 +63,7 @@ ol {
   overflow-y: auto;
   position: relative;
   z-index: 1;
-  align-items: flex-end;
+  overflow: auto;
 }
 
 .content__details {
@@ -91,6 +91,7 @@ ol {
 }
 
 .result__video-container {
+  display: flex;
   width: 711px;
   height: 386px;
   margin-bottom: 16px;
@@ -121,8 +122,9 @@ ol {
 .content__video-card {
   display: flex;
   align-items: start;
-  width: 394px;
+  width: 100%;
   justify-content: space-between;
+  padding: 2px;
 }
 
 .content__video-card-description-container {
@@ -139,7 +141,7 @@ ol {
   height: 103px;
   object-fit: cover;
   object-position: center;
-  align-self: end;
+  align-self: start;
 }
 
 .preloader {
@@ -167,6 +169,7 @@ ol {
 .content__card-link {
   text-decoration: none;
   color: #fff;
+  width: 100%;
 }
 
 .content__video-card-title {
@@ -334,7 +337,6 @@ ol {
   height: 19px;
   border: 1px solid #fff;
   position: relative;
-  
 }
 
 .search-form__pseudo-checkbox::before {
@@ -383,6 +385,3 @@ ol {
   margin: 2px;
   outline: 1px solid #fff;
 }
-
-
-
