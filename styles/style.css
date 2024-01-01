@@ -132,6 +132,7 @@ ol {
   flex-direction: column;
   align-items: start;
   justify-content: start;
+  max-width: 200px;
 }
 
 .content__video-card-thumbnail {
@@ -313,7 +314,7 @@ ol {
 
 .more-button {
   display: flex;
-  width: 399px;
+  width: 100%;
 }
 
 .search-form__checkbox:focus {
