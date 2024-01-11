@@ -181,6 +181,10 @@ ol {
   line-height: 100%;
   text-transform: uppercase;
   margin-bottom: 6px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .content__video-card-description {
